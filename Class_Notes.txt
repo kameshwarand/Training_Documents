@@ -1956,6 +1956,8 @@ Day 10: 16th July 2026
 
 		- kubectl get pods -o wide
 
+		- kubectl exec -it nginx-pod --bash   #login to running pod and identify issue # exit command can be to come out of the pod.
+
 		 
 
 		
