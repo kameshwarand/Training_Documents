@@ -1780,6 +1780,9 @@ Day 9: 15th July 2026
 			- Login to Docker Hub.
 			
 			- Push to Docker Hub.
+
+			
+				docker push loksaieta/temptcsimg:latest 
 			
 			
 	- Deploy to Kubernetes ::::
