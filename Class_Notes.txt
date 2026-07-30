@@ -1950,6 +1950,14 @@ Day 10: 16th July 2026
 	
 		- kubectl get pods --all-namespaces -o wide 
 
+		- kubectl apply -f nginx-pod.yaml    # to create pod
+
+		- kubectl describe pod nginx-pod
+
+		- kubectl get pods -o wide
+
+		 
+
 		
 		
 	- Kubernetes Manifest file ::::
