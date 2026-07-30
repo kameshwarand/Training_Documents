@@ -1948,12 +1948,33 @@ Day 10: 16th July 2026
 		
 		- kubectl get pods 
 	
-		- kubectl get pods --all-namespaces 
+		- kubectl get pods --all-namespaces -o wide 
+
 		
 		
 	- Kubernetes Manifest file ::::
 	
 		- Created by the developers/Kubernetes Associates
+******************************************************************************************************
+		#Sample Manifest File:
+		#Create Pod Object Manifest File
+
+		#nginx-pod.yaml
+		apiVersion: v1
+		kind: pod
+		metadata:
+			name: nginx-pod
+			labels:
+				app: nginx
+				tier: dev
+		spec:
+			containers:
+			-	name: nginx-container
+			 	image: nginx
+				ports: 
+				-	containerPort:80
+*****************************************************************************************************
+			 
 		
 		- Define the properties of the pods 
 		
