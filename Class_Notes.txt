@@ -1972,6 +1972,8 @@ Day 10: 16th July 2026
 
 		-kubectl scale deployment loksai-api-deploy --replicas =3     (# scale up or scale down --- replicas = 10 or replicas =0)
 
+		-kubectl autoscale deployment loksai-api-deploy --replicas =3     (# autoscale up or scale down --- replicas = 10 or replicas =0)
+
 		-kubectl get rs ( #rs - replica set)
 
 		
