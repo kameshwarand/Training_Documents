@@ -80,5 +80,17 @@ kubectl get rs
 kubectl get po 
 
 *******************************************************************
+ 
+# 8. To delete a pod
+
+kubectl get pods
+
+kubectl delete pod <pod name>
+
+kubectl get pods (# pod will be created to maintain the same numbers)
+
+kubectl get deploy
+
+*********************************************************************
 
 
