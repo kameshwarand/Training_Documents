@@ -1947,10 +1947,18 @@ Day 10: 16th July 2026
 		- kubectl get nodes 
 		
 		- kubectl get pods 
+
+		- kubectl describe pod <pod name>
 	
 		- kubectl get pods --all-namespaces -o wide 
 
 		- kubectl apply -f nginx-pod.yaml    # to create pod
+
+		- kubectl create namespace dev		# to create namespace (namespace can (Environment or Application teams) )
+
+		- kubectl create namespace QA
+
+		- kubectl get ns
 
 		- kubectl describe pod nginx-pod
 
@@ -2009,6 +2017,8 @@ Day 11: 17th July 2026
 	
 		- Logical Partitioning of the Kubernetes Cluster
 		- Namespaces are created based on the Enviroment Names, Application Team
+
+ 		- kubectl create namespace dev		# to create namespace (namespace can [Environment or Application teams])
 		
 		
 		
@@ -2039,11 +2049,12 @@ Day 11: 17th July 2026
 			--> The upgrade/down-grade of application pods can be done without any downtime. 
 			--> To achieve zero-downtime during upgrade/down-grade, By Default, it used Rolling-Update Deployment Strategy.
 				- Supports self-healing.		
-			
+
+			Rolling update deployment Strategy:			
 			
 			web_app_image:v1.0		==> 	web_app_image:v1.1
 			
-			pod_1.1:v1.0			==>		pod_1.1:v1.1	
+			pod_1.1:v1.0			==>		pod_1.1:v1.1(#perform image upgrade & other 2 pods will be live, once 1.1 is upgraded in 1.0 then pod 1.1 will be upgraded)	
 			pod_1.2:v1.0			==>		pod_1.2:v1.1
 			pod_1.3:v1.0			==>		pod_1.3:v1.0
 				
