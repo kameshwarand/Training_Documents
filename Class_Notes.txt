@@ -1966,6 +1966,16 @@ Day 10: 16th July 2026
 
 		- kubectl exec -it nginx-pod --bash   #login to running pod and identify issue # exit command can be to come out of the pod.
 
+		- kubectl create -f deploy-demo.yaml
+
+		-kubectl get deploy
+
+		-kubectl scale deployment loksai-api-deploy --replicas =3     (# scale up or scale down --- replicas = 10 or replicas =0)
+
+		-kubectl get rs ( #rs - replica set)
+
+		
+
 		 
 
 		
