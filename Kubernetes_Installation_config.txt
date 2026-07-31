@@ -286,6 +286,8 @@ sudo kubeadm token create --print-join-command 	# To generate New Token along wi
 ###Only in Worker Nodes:
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+#Use Private address (172.31.7.249) of Masternode. Note: Do not use public address of the Masternode
+
 
 kubeadm join 172.31.7.249:6443 --token 1714jm.7e1qem64lqcbah29 \
         --discovery-token-ca-cert-hash sha256:34ae3272aa8c136ec3aed95590ce44a2462fe85972e5f2ce68e5ff7e29606950
