@@ -1319,7 +1319,7 @@ Working with MLOps - Build Enviroment:
 
 Build Server :::
 
-- Create Python Virtual Environment to work with MLOps Tools
+#- create MLOps_Projects directory & Create Python Virtual Environment to work with MLOps Tools like DVC, docker & kubernetes. 
 
 python3.12 -m venv loksai_env
 
