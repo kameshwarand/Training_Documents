@@ -133,7 +133,7 @@ Working with MLOps - Build Enviroment:
 						sudo apt install docker.io -y
 						
 
-					python3 -m venv loksai_env
+					python3 -m venv loksai_env        #kam_env
 
 
 Build Server :::
