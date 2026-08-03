@@ -1350,7 +1350,9 @@ git init
 
 dvc init 							# Initialize DVC Repo & Create *dvcignore,config files add to git staging area
 
-dvc remote add -d myremote s3://loksai-edu-mlproject1
+dvc remote add -d myremote s3://loksai-edu-mlproject1            #mlops-s3-bucket-07-27
+
+dvc remote add -d myremote s3://mlops-s3-bucket-07-27
 
 git add .dvc/config
 
