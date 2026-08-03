@@ -60,6 +60,7 @@ kubectl get deploy
 # 5. Testing: Scale UP
 
 kubectl scale deployment nginx-deploy --replicas=5
+kubectl autoscale deployment nginx-deploy --replicas=7
 kubectl get deploy
 kubectl get po -o wide
 
