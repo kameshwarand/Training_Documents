@@ -1686,6 +1686,10 @@ Next ::::
 		<>INS>>>		
 		<>INS>>>
 
+		FROM Ubuntu
+		RUN apt update -y
+		RUN apt install git -y
+
 
 			Syntax:
 			
