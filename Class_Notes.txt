@@ -1695,7 +1695,7 @@ Next ::::
 			
 				docker build -t loksaieta/tcswebapp:v1.0 .					# '.' denotes the Dockerfile reference
 				
-				docker build -t kameshwarand31/myapp:v1.0 .				# '.' denotes the Dockerfile reference
+				docker build -t kameshwarand31/myapp:v1.1 .				# '.' denotes the Dockerfile reference
 
 
 
