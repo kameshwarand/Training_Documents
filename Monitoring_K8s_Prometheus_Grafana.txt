@@ -6,7 +6,7 @@ helm repo add prometheus-community https://prometheus-community.github.io/helm-c
 helm search repo prometheus-community
 helm search repo prometheus-community/kube-prometheus-stack
 helm search repo prometheus-community/kube-prometheus-stack --versions
-helm install prometheus prometheus-community/kube-prometheus-stack --version 45.7.1 --namespace monitoringv1 --create-namespace
+helm install prometheus prometheus-community/kube-prometheus-stack --version 58.1.0 --namespace monitoringv1 --create-namespace
 
 helm install prometheus prometheus-community/kube-prometheus-stack --namespace monitoring --create-namespace
 
